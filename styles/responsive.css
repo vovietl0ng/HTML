@@ -1,0 +1,224 @@
+@media (max-width: 1024px) {
+    .container, #latest_works, #bottom_content, #download {
+        width: 100%;
+        padding: 0 20px;
+    }
+    #main_menu {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .first_list {
+        float: none;
+        margin: 5px 0;
+    }
+}
+   
+@media (max-width: 769px) {
+
+    #main_menu {
+        display: none; /* Hide main menu on small screens */
+    }
+    h1 {
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+    #main_menu {
+        margin-top: 10px;
+        text-align: center;
+        float: none;
+    }
+    .first_list {
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+    }
+    #slideshow_area, #mid_content, #latest_works, #bottom_content, #download {
+        width: 100%;
+        padding: 0 10px;
+    }
+    #mid_content {
+        height: auto;
+    }
+    .mid_content_info {
+        width: 100%;
+        margin-top: 20px;
+        float: none;
+    }
+    .mid_content_space {
+        margin: 0;
+    }
+    #carousel_wrapper li, #portfolio_list li {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #testimonials, #clients {
+        width: 100%;
+       
+    }
+    #slideshow_container {
+        width: 768px;
+    }
+    .img_banner {
+        width: 720px;
+        height: 300px;
+        margin-left: -10px;
+    }
+    #slideshow_area {
+        padding-bottom: 20px;
+        width: 768px;
+        
+    }
+    #mid_content {
+        width: 768px;
+    }
+    
+    #bottom_content {
+        width: 768px;
+    }
+    .description {
+        width: 768px;
+    }
+    #carousel_wrapper {
+        margin-left: 50px;
+    }
+    
+    .client-client {
+        display: flex;
+        
+        width: 160px;
+        height: 100px;
+        background-color: #fff;
+    }
+    #download {
+        width: 768px;
+        height: 150px;
+    }
+    #download p {
+        width: 768px;
+        
+    }
+    #carousel_wrapper {
+        border: none;
+        margin-left: 250px;
+    }
+    #footer {
+        height: 600px;
+    }
+    #footer_connect {
+        float: inline-start;
+    }
+}
+
+@media (max-width: 320px) {
+    .header1 {
+        padding: 0;
+        margin-top: 20px;
+    }
+    #header {
+        margin-top: -20px;
+        height: 50px;
+        padding: 0 10px !important
+    }
+    #main_menu {
+        display: none; /* Hide main menu on small screens */
+    }
+    #main_menu_toggle {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background: #e8ebf1;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #carousel_wrapper{
+        border: #fff;
+    }
+    .container{
+        margin-left: -10px;
+    }
+   
+    .mid_content_info {
+        margin-top: 10px;
+        width: 320px;
+    }
+    .mid_content_info h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+    #carousel_wrapper li, #portfolio_list li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .slider__item {
+        height: 320px;
+    }
+    
+    .slider__caption {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #slideshow_container {
+        width: 320px;
+    }
+    .img_banner {
+        width: 300px;
+        height: 100px;
+        margin-left: -10px;
+    }
+    #slideshow_area {
+        padding-bottom: 20px;
+        width: 320px;
+        
+    }
+    #mid_content {
+        width: 320px;
+    }
+    #latest_works{
+        width: 320px;
+        padding-bottom: 20px;
+    }
+    #bottom_content {
+        width: 320px;
+    }
+    .description {
+        width: 320px;
+    }
+    .clients__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #carousel_wrapper {
+        margin-left: 40px;
+    }
+    .client-client {
+        display: flex;
+        
+        width: 160px;
+        height: 100px;
+        background-color: #fff;
+    }
+    #download {
+        width: 320px;
+        height: 240px;
+    }
+    #download p {
+        width: 300px;
+        
+    }
+    #footer {
+        width: 320px;
+        height: 1060px;
+    }
+    #footer_connect {
+        float: inline-start;
+    }
+    #footer_logo{
+        float: inline-start;
+    }
+}
